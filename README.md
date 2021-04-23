@@ -1,5 +1,5 @@
 # Flutter Electric Vehicle Speedometer
-## _Speedometer untuk proyek Molina UI. Dikembangkan menggunakan Flutter & Python._
+_Speedometer untuk proyek Molina UI. Dikembangkan menggunakan Flutter & Python._
 
 Full paper: [https://ieeexplore.ieee.org/document/9042456]
 
