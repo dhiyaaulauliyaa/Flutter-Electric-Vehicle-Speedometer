@@ -1,0 +1,130 @@
+name: skripsi_2_2
+description: A new Flutter project.
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.2.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^0.1.2
+  step_slider: ^1.0.0+1
+  intl: ">=0.14.0"
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - assets/mockup.png
+    - assets/guide.png
+    - assets/meter/meterOff.png
+    - assets/meter/meterOn.png
+    - assets/meter/upperMeter.png
+    - assets/meter/upperMeter2.png
+    - assets/meter/upperMeter2-Plain.png
+    - assets/meter/indicatorOn.png
+    - assets/indicator/gearOn.png
+    - assets/indicator/brake.png
+    - assets/indicator/defogger.png
+    - assets/indicator/high_beam.png
+    - assets/indicator/low_beam.png
+    - assets/indicator/oil.png
+    - assets/indicator/wiper.png
+    - assets/indicator/mask_top.png
+    - assets/temp/car-neon-full.png
+    - assets/temp/bluetemp-engine.png
+    - assets/temp/bluetemp-cabin-1.png
+    - assets/temp/bluetemp-cabin-2.png
+    - assets/temp/redtemp-engine.png
+    - assets/temp/redtemp-cabin-1.png
+    - assets/temp/redtemp-cabin-2.png
+    - assets/temp/temp-guide.png
+    - assets/humidity/Humid-Cabin1-1.png
+    - assets/humidity/Humid-Cabin1-2.png
+    - assets/humidity/Humid-Cabin1-3.png
+    - assets/humidity/Humid-Cabin2-1.png
+    - assets/humidity/Humid-Cabin2-2.png
+    - assets/humidity/Humid-Cabin2-3.png
+    - assets/acceleration/acceleration-base.png
+    - assets/acceleration/acceleration-bar-0.png
+    - assets/acceleration/acceleration-bar-1.png
+    - assets/acceleration/acceleration-bar-2.png
+    - assets/acceleration/acceleration-bar-3.png
+    - assets/acceleration/acceleration-bar-4.png
+    - assets/acceleration/acceleration-bar-5.png
+    - assets/acceleration/acceleration-bar-6.png
+    - assets/acceleration/acceleration-bar-7.png
+    - assets/acceleration/acceleration-bar-8.png
+    - assets/acceleration/acceleration-bar-9.png
+    - assets/acceleration/acceleration-bar-10.png
+    - assets/vibration/vibereshon.png
+    - assets/vibration/vibration-guide.png
+    - assets/vibration/bluevib-engine.png
+    - assets/vibration/bluevib-cabin-1.png
+    - assets/vibration/bluevib-cabin-2.png
+    - assets/vibration/redvib-engine.png
+    - assets/vibration/redvib-cabin-1.png
+    - assets/vibration/redvib-cabin-2.png
+
+
+
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/assets-and-images/#resolution-aware.
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/assets-and-images/#from-packages
+
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+
+  fonts:
+    - family: MuseoSans
+      fonts:
+        - asset: assets/fonts/MuseoSans-100.otf
+          weight: 100
+        - asset: assets/fonts/MuseoSans-300Italic.otf
+          style: italic
+          weight: 300
+        - asset: assets/fonts/MuseoSans-500.otf
+          weight: 500
+        - asset: assets/fonts/MuseoSans-700Italic.otf
+          style: italic
+          weight: 700
+    - family: Krunch
+      fonts:
+        - asset: assets/fonts/krunch_italic.ttf
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages
