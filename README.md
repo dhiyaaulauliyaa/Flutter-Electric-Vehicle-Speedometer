@@ -1,7 +1,10 @@
 # Flutter Electric Vehicle Speedometer
 _Speedometer untuk proyek Molina UI. Dikembangkan menggunakan Flutter & Python._
 
+
 Full paper: [https://ieeexplore.ieee.org/document/9042456]
+Video: [https://youtu.be/bw2y8bo7Cr0]
+
 
 ### Cara debugging aplikasi dashboard single display (aplikasi skipsi 3_2 → dengan koneksi websocket)
 1.	Download & install flutter sdk (https://flutter.dev/docs/get-started/install)
@@ -11,6 +14,7 @@ Full paper: [https://ieeexplore.ieee.org/document/9042456]
 ```sh
 flutter run 
 ``` 
+
 
 ### Cara memakai aplikasi dashboard dengan koneksi server [Aplikasi Dashboard (Dengan Koneksi Server)/skripsi_3_2]
 1.	Hidupkan ECU/Modul ELM327 terlebih dahulu. Apabila sudah hidup, maka nyalakan raspberry.
@@ -25,11 +29,12 @@ python main_server.py
 ```
 8.	Apabila program di matikan, data log akan otomatis terbuat dengan format excel. Biasanya tersimpan pada direktori home.
 
-> PENTING! Pastikan layar hp memiliki aspect ratio 16:9. Jika rasio nya berbeda, maka tampilan akan kacau. Hal ini dikarenakan aplikasi belum dibuat responsive.
+> PENTING! Pastikan layar hp memiliki aspect ratio 16:9. Jika rasio nya berbeda, maka tampilan akan kacau. Hal ini dikarenakan aplikasi tidak dibuat responsive.
+
 
 ### Cara memakai aplikasi dashboard multi display [Aplikasi Dashboard (User Interface Saja)]
 1.	Clone repo ini, lalu buka folder `[Aplikasi Dashboard (User Interface Saja)/skripsi_2_1]`
-2.	Run/debug aplikasi (bisa menggunakan simulator maupun real smartphone) dengan command flutter run pada direktori folder. Pastikan layar hp memiliki aspect ratio 16:9. Jika rasio nya berbeda, maka tampilan akan kacau. Hal ini dikarenakan aplikasi belum dibuat responsive.
+2.	Run/debug aplikasi (bisa menggunakan simulator maupun real smartphone) dengan command flutter run pada direktori folder. Pastikan layar hp memiliki aspect ratio 16:9. Jika rasio nya berbeda, maka tampilan akan kacau. Hal ini dikarenakan aplikasi tidak dibuat responsive.
 3.	Aplikasi akan masuk ke halaman utama. Untuk mengubah tampilan/parameter bisa menggunakan slider yang ada pada bagian bawah.
 4.	Aplikasi ini digunakan untuk mendebug/menguji user interface saja, belum memiliki fungsionalitas koneksi dengan modul ECU. apabila ingin menguji koneksi dengan modul ECU, bisa menggunakan aplikasi yang satunya lagi.
 	
