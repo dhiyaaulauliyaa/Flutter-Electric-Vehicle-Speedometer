@@ -3,7 +3,7 @@ _Speedometer untuk proyek Molina UI. Dikembangkan menggunakan Flutter & Python._
 
 
 Full paper: [https://ieeexplore.ieee.org/document/9042456]<br>
-Video: [https://youtu.be/bw2y8bo7Cr0]
+Video: [https://youtu.be/ijb-vDURNmY]
 
 
 ### Cara debugging aplikasi dashboard single display (aplikasi skipsi 3_2 → dengan koneksi websocket)
