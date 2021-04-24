@@ -2,7 +2,7 @@
 _Speedometer untuk proyek Molina UI. Dikembangkan menggunakan Flutter & Python._
 
 
-Full paper: [https://ieeexplore.ieee.org/document/9042456]
+Full paper: [https://ieeexplore.ieee.org/document/9042456]<br>
 Video: [https://youtu.be/bw2y8bo7Cr0]
 
 
